@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/password-task/static/css/main.130e290d.css",
+    "main.js": "/password-task/static/js/main.5bca1376.js",
+    "index.html": "/password-task/index.html",
+    "main.130e290d.css.map": "/password-task/static/css/main.130e290d.css.map",
+    "main.5bca1376.js.map": "/password-task/static/js/main.5bca1376.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.130e290d.css",
+    "static/js/main.5bca1376.js"
+  ]
+}
