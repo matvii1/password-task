@@ -1,0 +1,59 @@
+@import './vars';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+.form {
+  &__input {
+    width: 25rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(38, 37, 37);
+    outline: none;
+    font-size: 1.25rem;
+    font-family: inherit;
+  }
+}
+
+.messages {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  &__message {
+    max-width: 14rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem 0.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+.password-message {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: $red-c;
+}
+
+.has-grey {
+  background: $grey-c;
+}
+
+
+.has-yellow {
+  background: $yellow-c;
+}
+
+.has-green {
+  background: $green-c;
+}
+
+.has-red{
+  background: $red-c;
+}
+
+@import './App.scss';
